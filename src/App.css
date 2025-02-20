@@ -1,0 +1,181 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #eef2f3;
+  margin: 0;
+  padding: 0;
+}
+
+
+.quiz-container {
+  width: 600px;  
+  height: 600px; 
+  background: white; 
+  display: flex;
+  justify-content: center; 
+  border-radius: 10px; 
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2); 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(179, 91, 217);
+  /* border: 2px solid black; */
+  /* overflow: hidden; */
+ 
+}
+
+.quiz-image {
+  width: 330px; 
+  height: auto;
+  border-radius: 10px;
+  margin-left: 100px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 40%; /* Moves the image slightly above the center */
+  transform: translateY(-50%); /* Centers it correctly */
+  }
+  
+
+
+.startbtn {
+  height: 100px;
+  width: 250px;
+  font-size: 40px;
+  font-weight: bolder;
+  margin-left: 265px;
+  margin-bottom: 60px;
+  margin-top: auto;
+  background-color: purple;
+  transform: translateX(-50%);
+}
+.startbtn:hover {
+  background-color: darkviolet;
+}
+.Instruction {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+  text-align: center;
+ 
+  margin-bottom: 20px;
+  
+}
+.Instruction-heading {
+  font-size: 35px;
+}
+.Instruction p {
+  display: block;
+  margin-top: 40px;
+  margin: 10px 0 !important;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;  
+  align-items: center;  
+  justify-content: flex-start; 
+  text-align: left;
+  gap: 20px; 
+  width: 100%;
+}
+
+.Instructionbtn {
+  height: 50px;
+  margin-top: 40px;
+  font-weight: bold;
+}
+
+.question {
+  font-size: 25px;
+  font-weight: bolder;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 10px; 
+  align-self: flex-start;
+  color: black;
+  margin-top: 80px;
+}
+.time {
+  font-size: 19px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.options {
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;  
+  justify-content: center; 
+  gap: 10px; 
+  width: 90%;
+  margin-left: 30px;
+  /* margin-right: 200px; */
+ 
+ 
+}
+button {
+  
+  background-color: purple;
+  color: white;
+  padding: 12px 24px;
+  margin: 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: rgb(88, 9, 88);
+}
+
+.option-button {
+  
+  display: block;
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  font-size: 18px;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+.correct {
+  background-color: green !important;
+  color: white;
+}
+
+.incorrect {
+  background-color: red !important;
+  color: white;
+}
+
+.timer {
+  font-size: 20px;
+  font-weight: bold;
+  color: #d9534f;
+  margin: 10px 0;
+}
+
+.Score {
+  display: flex;
+  flex-direction: column;  
+  justify-content: center; 
+  align-items: center; 
+  text-align: center; 
+  
+}
+.score-heading {
+  font-size: 35px;
+  margin-bottom: 50px;
+}
+.Score p {
+  font-weight: bolder;
+  font-size: 25px;
+}
+.Score Button {
+  font-weight: bolder;
+}
